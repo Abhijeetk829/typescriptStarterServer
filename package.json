@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "es": "esrun server",
-    "start": "node server"
+    "dev": "nodemon -e ts js json --exec \"esrun server\""
   },
   "keywords": [],
   "author": "Abhijeet Kumar",
